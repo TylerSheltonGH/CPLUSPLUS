@@ -21,7 +21,7 @@ void Application::Init()
 
 	m_Random.Seed();
 
-	m_Window.Init("ASDF", glm::vec2(SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED), glm::vec2(800, 600), SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
+	m_Window.Init("Void", glm::vec2(SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED), glm::vec2(800, 600), SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
 	m_Camera.Init(m_Window.GetSize());
 
